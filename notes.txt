@@ -1,0 +1,35 @@
+importante: si algo no tiene sentido, se debe remover o refactorizar
+
+Clases Init
+    *El nombre de la clase es lo más importante
+    *Formados por un sustantivo o frases de un sustantivo
+    *No debe ser muy generíco
+    *Usar UpperCamelCase
+
+    3 preguntas para deterimnar si es un buen nombre
+        *¿Qué exactamente hace la clase?
+        *¿Cómo exactamente está clase realiza cierta tarea?
+        *¿Hay algo específico sobre su ubicación?
+
+    nota: más palabras !== mejor nombre
+Clases end
+
+
+
+funciones Init
+    "Sabemos que estamos desarrollando un código limpio cuando cada función hace exactamente lo que su nombre indica"
+        -Ward Cunningham
+
+    Parámetros y argumentos
+        Limitar a 3 o 1 parámetros posicionales por cada función
+        Ordenar los parámetros de forma alfabética
+    
+    Otras recomendaciones
+        Simplicidad de las funciones es fundamental
+        Funciones de tamaño reducido
+        Funciones de una sola linea sin causar complejidad
+        Menos de 20 lineas
+        evitar el uso del "else"
+        Prioriza el uso de la condicional ternaria
+        
+funciones end
